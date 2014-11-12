@@ -12,7 +12,7 @@
 //   }
 //}
 
-namespace Deregionizer.ConsoleApplication.IntegrationTest
+namespace Deregionizer.ConsoleApplication.IntegrationTests
 {
 	public class MyClass
 	{

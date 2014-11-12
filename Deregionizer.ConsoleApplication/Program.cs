@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 
 namespace Deregionizer.ConsoleApplication
@@ -11,6 +12,8 @@ namespace Deregionizer.ConsoleApplication
 			{
 				Console.Out.WriteLine("Usage: Deregionizer.ConsoleApplication {solution or project file}");
 			}
+
+			//Debugger.Launch();
 
 			if (Path.GetExtension(args[0]) == ".sln")
 			{
