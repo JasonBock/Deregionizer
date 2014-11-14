@@ -16,9 +16,11 @@ namespace Deregionizer.ConsoleApplication.IntegrationTests
 {
 	public class MyClass
 	{
+		#region Constructors
 		public MyClass()
 			: base()
 		{ }
+		#endregion
 
 		public string Data { get; set; }
 	}
